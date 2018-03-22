@@ -7,10 +7,10 @@ public class Player
 	private boolean alive;
 	public Player()
 	{
-		positionX=0;
-		positionY = 0;
+		positionX=50;
+		positionY = 250;
 		points =0;
-		health =100;
+		health =200;
 		alive =true;
 	}
 	
