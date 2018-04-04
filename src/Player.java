@@ -8,14 +8,14 @@ public class Player
 	public Player()
 	{
 		positionX=50;
-		positionY = 250;
+		positionY = 180;
 		points =0;
 		health =200;
 		alive =true;
 	}
 	
 	//get methods
-	public int getX()
+	public int getX()	
 	{
 		return positionX;
 	}
@@ -30,10 +30,6 @@ public class Player
 	public int gethealth()
 	{
 		return health;
-	}
-	public boolean getalive()
-	{
-		return alive;
 	}
 	//set methods
 	public void setX(int newX)
@@ -51,9 +47,5 @@ public class Player
 	public void sethealth(int newh)
 	{
 		health = newh;
-	}
-	public void setalive(boolean a)
-	{
-		alive=a;;
 	}
 }

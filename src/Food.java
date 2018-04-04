@@ -15,10 +15,7 @@ public class Food {
 		speed = news;
 		pointsGiven = newp;
 	}
-	public int getSpeed()
-	{
-		return speed;
-	}
+	
 	public int getPoints()
 	{
 		return pointsGiven;
@@ -29,7 +26,7 @@ public class Food {
 	}
 	public int getY()
 	{
-		return foodY;
+		return foodY;	
 	}
 	
 	
@@ -40,10 +37,6 @@ public class Food {
 	public void setY(int newY)
 	{
 		foodY = newY;
-	}
-	public void setSpeed(int news)
-	{
-		speed =news;
 	}
 	public void setPoints(int newp)
 	{
